@@ -1,6 +1,8 @@
 # The Past Does Matter: Correlation of Subsequent States in Trajectory Predictions of Gaussian Process Models
 ### Steffen Ridderbusch, Sina Ober-Blöbaum, Paul James Goulart
 
+Note: The code will follow imminently, ahead of the presentation of my paper. 
+
 This repo contains the code for the paper [The Past Does Matter: Correlation of Subsequent States in Trajectory Predictions of Gaussian Process Models](https://proceedings.mlr.press/v216/ridderbusch23a.html), published at UAI 2023. 
 
 The method presented in this paper has been incorporated into the Julia package [GPDiffEq.jl](https://proceedings.mlr.press/v216/ridderbusch23a.html), which has also been used in this repo. 
@@ -22,5 +24,7 @@ julia>]
 
 ## Contents
 This repo contains two notebooks and two scripts. 
-- `Linear-Uncertainty.ipynb`: This notebooks contains the code and plots for the linear prototype shown in section 3 of this paper, including both the plots for the paper and the poster. 
-- `Local_Lin.ipynb`:
+- `Linear-Uncertainty.ipynb`: This notebook contains the code and plots for the linear prototype shown in section 3 of this paper, including both the plots for the paper and the poster. 
+- `Local_Lin.ipynb`: This notebook contains the code for the nonlinear example in section 5, again including both the paper and poster versions of relevant plots. 
+- `poster-plots.jl`:  A script with a few poster specific plots.
+- `uai-experiments.jl`: A script with the experiments ran in response to the reviews. 
